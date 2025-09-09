@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 323886487}
   - component: {fileID: 323886488}
   - component: {fileID: 323886489}
+  - component: {fileID: 323886490}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -278,12 +279,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 323886481}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d30bf558573823b4ba31362298a160d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ForSum
+  n: 0
+--- !u!114 &323886490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323886481}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ad54a175ace14544a652c1dd2c048a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 935c23f7aef7ef245aa086445be767cf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WhilePibonach
-  n: 10
+  m_EditorClassIdentifier: Assembly-CSharp::ForPractice
+  n: 100
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832575517}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
