@@ -22,7 +22,7 @@ public class StackOfType : MonoBehaviour
 /*
  
  제네릭 클래스 : 형식 매개변수 T로 지정한 형식으로 클래스와 멤버의 성질이 결정되는 클래스
-Generic Class : Cup<T> 컵어브티, 전용컵
+ Generic Class : Cup<T> 컵어브티, 전용컵
  
  
  
