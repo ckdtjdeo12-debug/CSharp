@@ -14,7 +14,7 @@ namespace Field
             myCar.name = "홍길동";
             Debug.Log(myCar.name);
 
-            //[3] Car 클래스에 있는 private 필드에 접근해서 사용 (ㅌ, 보호수준때문에 접근 불가)
+            //[3] Car 클래스에 있는 private 필드에 접근해서 사용 (x, 보호수준때문에 접근 불가)
             //myCar.age = 20;
             //myCar.address = "서울";
 
