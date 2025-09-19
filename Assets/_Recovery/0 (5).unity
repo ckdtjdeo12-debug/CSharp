@@ -432,7 +432,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1791961331
+--- !u!1 &1988435941
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,11 +440,13 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1791961333}
-  - component: {fileID: 1791961332}
-  - component: {fileID: 1791961334}
-  - component: {fileID: 1791961335}
-  - component: {fileID: 1791961336}
+  - component: {fileID: 1988435943}
+  - component: {fileID: 1988435942}
+  - component: {fileID: 1988435944}
+  - component: {fileID: 1988435945}
+  - component: {fileID: 1988435946}
+  - component: {fileID: 1988435947}
+  - component: {fileID: 1988435948}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -452,25 +454,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1791961332
+--- !u!114 &1988435942
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791961331}
+  m_GameObject: {fileID: 1988435941}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30c97458a2e67144286aba4c8210f8fa, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d6d590a17783064d900324ea9a412ba, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Method.MethodIn
---- !u!4 &1791961333
+  m_EditorClassIdentifier: Assembly-CSharp::Property.ObjectInitializer
+--- !u!4 &1988435943
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791961331}
+  m_GameObject: {fileID: 1988435941}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.45792, y: 0, z: -8.2289}
@@ -479,42 +481,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1791961334
+--- !u!114 &1988435944
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791961331}
+  m_GameObject: {fileID: 1988435941}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2234eebfd759da94699309b267d45482, type: 3}
+  m_Script: {fileID: 11500000, guid: 0278c570d25b1d6499541827ec71f634, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Method.MethodExpression
---- !u!114 &1791961335
+  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerDemo
+--- !u!114 &1988435945
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791961331}
+  m_GameObject: {fileID: 1988435941}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d4c8918cd4fba8478028b712c535a06, type: 3}
+  m_Script: {fileID: 11500000, guid: 09dbe69d62383c445830e969e643c924, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Method.MethodRef
---- !u!114 &1791961336
+  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerNote
+--- !u!114 &1988435946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791961331}
+  m_GameObject: {fileID: 1988435941}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c168c3cd5b442409a76dfe35534128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Indexer.IndexerDescription
+--- !u!114 &1988435947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988435941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0baef6f9efa186c4a8d17519e2cc1e47, type: 3}
+  m_Script: {fileID: 11500000, guid: fe51fedfb8d152641936923b84fce3bd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Property.PropertyDemo
+  m_EditorClassIdentifier: Assembly-CSharp::Delegate.DelegateDemo
+--- !u!114 &1988435948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988435941}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560d3d7b35f2e6a4689c2759501be1ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Delegate.DelegateNote
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -522,4 +548,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1791961333}
+  - {fileID: 1988435943}
