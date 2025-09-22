@@ -446,6 +446,11 @@ GameObject:
   - component: {fileID: 1791961335}
   - component: {fileID: 1791961336}
   - component: {fileID: 1791961337}
+  - component: {fileID: 1791961338}
+  - component: {fileID: 1791961339}
+  - component: {fileID: 1791961341}
+  - component: {fileID: 1791961340}
+  - component: {fileID: 1791961342}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -523,11 +528,71 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791961331}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cff7a294768b6f54abb715cde55d9d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Delegate.DelegateAll
+--- !u!114 &1791961338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791961331}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a7df0ce01bd3f499a3e70187685cef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InInheritance.InheritanceDemo
+--- !u!114 &1791961339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791961331}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1318c5ab50724040913a134d790fbaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inheritance.InheritanceBassSub
+--- !u!114 &1791961340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791961331}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ae7cdff81ab994d8c83f5297175e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inheritance.InheritanceProtected
+--- !u!114 &1791961341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791961331}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a256261db084a498e9a3ac97ade9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inheritance.InheritanceObject
+--- !u!114 &1791961342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791961331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 779eb58b474e8414e84fbe58fccb949a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InheritanceBaseTest.InheritanceBaseKeyword
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
