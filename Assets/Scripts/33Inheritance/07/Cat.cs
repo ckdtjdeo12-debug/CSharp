@@ -4,7 +4,7 @@ namespace InheritanceSealedTest
 {
     //자식 클래스 선언
     //Sealed(봉인)클래스 지정(최종 클래스) : 상속 거부, 더이상 상송이 안된다
-    sealed public class Cat
+    sealed public class Cat : Animal
     {
               
         
