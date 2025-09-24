@@ -13,8 +13,8 @@ namespace Field
             string tName = Truck.GetName();
             Debug.Log(tName);
 
-            //Truck.age = 20; (x)
 
+            //Truck.age = 20; (x)
             //Truck 클래스의 인스턴스 멤버 사용하기
             //Truck 클래스의 인스턴스(instance)생성
             //생성된 인스턴스(instance)이름.인스턴스이름 으로 접근해서 사용
